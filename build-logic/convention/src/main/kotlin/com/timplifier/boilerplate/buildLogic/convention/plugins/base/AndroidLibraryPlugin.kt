@@ -3,18 +3,17 @@ package com.timplifier.boilerplate.buildLogic.convention.plugins.base
 import com.android.build.api.dsl.LibraryBuildFeatures
 import com.android.build.api.dsl.LibraryBuildType
 import com.android.build.gradle.LibraryExtension
+import com.timplifier.boilerplate.buildLogic.convention.extensions.androidProjectConfig
+import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPluginId
+import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPrimitive
+import com.timplifier.boilerplate.buildLogic.convention.extensions.libs
+import com.timplifier.boilerplate.buildLogic.convention.extensions.projectConfig
 import org.gradle.api.JavaVersion
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.withType
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import com.timplifier.boilerplate.buildLogic.convention.extensions.androidProjectConfig
-import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPluginId
-import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPrimitive
-import com.timplifier.boilerplate.buildLogic.convention.extensions.projectConfig
-import com.timplifier.boilerplate.buildLogic.convention.extensions.libs
-
 
 internal abstract class AndroidLibraryPlugin(
     private val projectConfiguration: Project.() -> Unit = {},

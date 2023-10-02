@@ -1,4 +1,4 @@
-package org.tbm.walletleaks.buildlogic.convention.plugins.layers
+package com.timplifier.boilerplate.buildLogic.convention.plugins.layers
 
 import org.gradle.kotlin.dsl.dependencies
 import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPluginId
