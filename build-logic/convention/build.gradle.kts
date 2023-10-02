@@ -1,7 +1,9 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import com.google.protobuf.gradle.protobuf
 
 plugins {
     `kotlin-dsl`
+    id(libs.plugins.google.protobuf.get().pluginId) version (libs.plugins.google.protobuf.get().version.displayName)
 }
 
 java {
