@@ -1,8 +1,8 @@
 package com.timplifier.boilerplate.buildLogic.convention.extensions
 
 import org.gradle.accessors.dm.LibrariesForAndroidProjectConfig
-import org.gradle.accessors.dm.LibrariesForProjectConfig
 import org.gradle.accessors.dm.LibrariesForLibs
+import org.gradle.accessors.dm.LibrariesForProjectConfig
 import org.gradle.api.Project
 import org.gradle.api.internal.catalog.AbstractExternalDependencyFactory
 import org.gradle.api.plugins.ExtensionAware
