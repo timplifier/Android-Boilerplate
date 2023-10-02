@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327951495829",
+    "project_id": "boilerplate-191ff",
+    "storage_bucket": "boilerplate-191ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327951495829:android:620d59618adf709b5b619c",
+        "android_client_info": {
+          "package_name": "com.timplifier.boilerplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMDagjfPSktFO04mM0HgIs8s6o69DbjvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

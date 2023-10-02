@@ -1,0 +1,203 @@
+[versions]
+# AGP
+agp = "8.1.2"
+# Google
+google-services = "4.3.15"
+google-devtools-ksp = "1.9.0-1.0.12"
+google-accompanist = "0.31.2-alpha"
+google-accompanist-flowlayout = "0.31.6-rc"
+google-android-play-app-update = "2.1.0"
+google-android-play-app-review = "2.0.1"
+google-dagger = "2.48"
+google-protobuf = "0.9.4"
+google-protobuf-javalite = "3.24.3"
+# Triplet
+triplet-playpublisher = "3.8.4"
+# Kotlin
+kotlin = "1.9.0"
+kotlin-compiler-compose = "1.5.1"
+# JavaX
+javax = "1"
+# Dokka
+dokka = "0.9.18"
+# Lemonappdev
+lemonappdev-konsist = "0.11.0"
+# KotlinX
+kotlinx-collections-immutable = "0.3.5"
+kotlinx-datetime = "0.4.0"
+kotlinx-coroutines = "1.7.1"
+kotlinx-serialization-json = "1.5.1"
+# Ktor
+ktor = "2.3.2"
+# AndroidX
+androidx-core-ktx = "1.12.0"
+androidx-core-splashscreen = "1.0.1"
+androidx-activity = "1.8.0-rc01"
+androidx-navigation-compose = "2.7.3"
+androidx-lifecycle = "2.6.2"
+androidx-compose-material = "1.5.1"
+androidx-compose-material3 = "1.1.2"
+androidx-paging-compose = "3.2.1"
+androidx-paging = "3.2.1"
+androidx-datastore = "1.1.0-alpha05"
+androidx-room = "2.5.2"
+# Coil
+coil = "2.3.0"
+# Guardsquare
+guardsquare-appsweep = "latest.release"
+# Ktlint
+ktlint = "11.3.2"
+# Testing
+junit = "4.13.2"
+[libraries]
+# AGP
+agp-tools-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+
+# Google
+google-protobuf-javalite = { group = "com.google.protobuf", name = "protobuf-javalite", version.ref = "google-protobuf-javalite" }
+google-devtools-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "google-devtools-ksp" }
+google-android-play-app-update = { group = "com.google.android.play", name = "app-update", version.ref = "google-android-play-app-update" }
+google-android-play-app-update-ktx = { group = "com.google.android.play", name = "app-update-ktx", version.ref = "google-android-play-app-update" }
+google-android-play-app-review = { group = "com.google.android.play", name = "review", version.ref = "google-android-play-app-review" }
+google-android-play-app-review-ktx = { group = "com.google.android.play", name = "review-ktx", version.ref = "google-android-play-app-review" }
+google-accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "google-accompanist-flowlayout" }
+google-accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "google-accompanist" }
+google-accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "google-accompanist" }
+google-accompanist-testharness = { group = "com.google.accompanist", name = "accompanist-testharness", version.ref = "google-accompanist" }
+google-dagger = { group = "com.google.dagger", name = "dagger", version.ref = "google-dagger" }
+google-dagger-android = { group = "com.google.dagger", name = "dagger-android", version.ref = "google-dagger" }
+google-dagger-android-processor = { group = "com.google.dagger", name = "dagger-android-processor", version.ref = "google-dagger" }
+google-dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "google-dagger" }
+
+# Triplet
+triplet-playpublisher = { group = "com.github.triplet.gradle", name = "play-publsiher", version.ref = "triplet-playpublisher" }
+
+# Kotlin
+kotlin-gradle = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+# JavaX
+javax-inject = { group = "javax.inject", name = "javax.inject", version.ref = "javax" }
+
+# Dokka
+dokka-gradle = { group = "org.jetbrains.dokka", name = "dokka-gradle-plugin", version.ref = "kotlin" }
+dokka-android-gradle = { group = "org.jetbrains.dokka", name = "dokka-android-gradle-plugin", version.ref = "dokka" }
+dokka-android-documentation = { group = "org.jetbrains.dokka", name = "android-documentation-plugin", version.ref = "kotlin" }
+
+# Lemonappdev
+lemonappdev-konsist = { group = "com.lemonappdev", name = "konsist", version.ref = "lemonappdev-konsist" }
+
+# Kotlinx
+kotlinx-collections-immutable = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable" }
+kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinx-datetime" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+
+# Ktor
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktor" }
+ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-client-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "ktor" }
+ktor-client-engine-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-engine-android = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor" }
+ktor-client-engine-native-darwin = { group = "io.ktor", name = "ktor-client-darwin", version.ref = "ktor" }
+ktor-client-engine-native-winhttp = { group = "io.ktor", name = "ktor-client-winhttp", version.ref = "ktor" }
+ktor-client-engine-native-curl = { group = "io.ktor", name = "ktor-client-curl", version.ref = "ktor" }
+ktor-client-engine-multiplatform-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
+ktor-client-engine-js = { group = "io.ktor", name = "ktor-client-js", version.ref = "ktor" }
+ktor-client-websockets = { group = "io.ktor", name = "ktor-client-websockets", version.ref = "ktor" }
+ktor-client-resources = { group = "io.ktor", name = "ktor-client-resources", version.ref = "ktor" }
+ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version.ref = "ktor" }
+ktor-server-content-encoding = { group = "io.ktor", name = "ktor-client-encoding", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-serialization-gson = { group = "io.ktor", name = "ktor-serialization-gson", version.ref = "ktor" }
+ktor-serialization-jackson = { group = "io.ktor", name = "ktor-serialization-jackson", version.ref = "ktor" }
+ktor-serialization-kotlinx-xml = { group = "io.ktor", name = "ktor-serialization-kotlinx-xml", version.ref = "ktor" }
+ktor-serialization-kotlinx-cbor = { group = "io.ktor", name = "ktor-serialization-kotlinx-cbor", version.ref = "ktor" }
+ktor-serialization-kotlinx-protobuf = { group = "io.ktor", name = "ktor-serialization-kotlinx-protobuf", version.ref = "ktor" }
+
+# AndroidX
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidx-core-splashscreen" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigation-compose" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-livedata = { group = "androidx.lifecycle", name = "runtime-livedata" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "androidx-compose-material" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "androidx-compose-material3" }
+androidx-paging = { group = "androidx.paging", name = "paging-runtime", version.ref = "androidx-paging" }
+androidx-paging-common = { group = "androidx.paging", name = "paging-common", version.ref = "androidx-paging" }
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "androidx-paging-compose" }
+androidx-datastore = { group = "androidx.datastore", name = "datastore", version.ref = "androidx-datastore" }
+androidx-datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidx-datastore" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "androidx-room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidx-room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidx-room" }
+
+# Coil
+coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+coil-svg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coil" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+[bundles]
+# Compose
+androidx-compose = ["androidx-core-ktx", "androidx-core-splashscreen", "androidx-activity-compose", "androidx-compose-ui", "androidx-compose-ui-test", "androidx-compose-ui-tooling", "androidx-compose-ui-tooling-preview", "androidx-compose-foundation", "androidx-compose-material", "androidx-compose-material3", "google-accompanist-flowlayout", "coil", "coil-compose", "androidx-paging-compose", "androidx-paging", "androidx-navigation-compose"]
+androidx-lifecycle-compose = ["androidx-lifecycle-runtime-compose", "androidx-lifecycle-viewmodel-compose"]
+
+# KotlinX
+kotlinx-core = ["kotlinx-collections-immutable", "kotlinx-datetime", "kotlinx-serialization-json", "kotlinx-coroutines-core"]
+kotlinx-android = ["kotlinx-collections-immutable", "kotlinx-datetime", "kotlinx-serialization-json", "kotlinx-coroutines-core", "kotlinx-coroutines-android"]
+
+# Ktor
+ktor-client = ["ktor-client-core", "ktor-serialization-kotlinx-json", "ktor-client-content-negotiation", "ktor-client-logging", "ktor-client-engine-okhttp", "ktor-client-auth", "ktor-client-resources", "ktor-client-websockets"]
+[plugins]
+# Wallet Leaks
+boilerplate-android-plain = { id = "walletleaks.android.plain" }
+boilerplate-layer-data = { id = "walletleaks.layer.data" }
+boilerplate-layer-domain = { id = "walletleaks.layer.domain" }
+boilerplate-layer-presentation = { id = "walletleaks.layer.presentation" }
+
+# AGP
+agp-application = { id = "com.android.application", version.ref = "agp" }
+agp-library = { id = "com.android.library", version.ref = "agp" }
+agp-test = { id = "com.android.test", version.ref = "agp" }
+
+# Google
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "google-devtools-ksp" }
+google-protobuf = { id = "com.google.protobuf", version.ref = "google-protobuf" }
+
+# Triplet
+triplet-playpublisher = { id = "com.github.triplet.play", version.ref = "triplet-playpublisher" }
+
+# Java
+java-library = { id = "java-library" }
+
+# Kotlin
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-native = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+kotlin-kapt = { id = "kotlin-kapt" }
+kotlin-parcelize = { id = "kotlin-parcelize" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+# Dokka
+dokka = { id = "org.jetbrains.dokka", version.ref = "kotlin" }
+
+#Guardsquare
+guardsquare-appsweep = { id = "com.guardsquare.appsweep", version.ref = "guardsquare-appsweep" }
+
+#Ktlint
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }

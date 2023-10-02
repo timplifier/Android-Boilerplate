@@ -1,0 +1,5 @@
+[versions]
+layer-data-implementation = "com.timplifier.boilerplate.buildLogic.convention.plugins.layers.DataPlugin"
+layer-domain-implementation = "com.timplifier.boilerplate.buildLogic.convention.plugins.layers.DomainPlugin"
+layer-presentation-implementation = "com.timplifier.boilerplate.buildLogic.convention.plugins.layers.PresentationPlugin"
+android-plain-implementation = "com.timplifier.boilerplate.buildLogic.convention.plugins.PlainAndroidLibraryPlugin"

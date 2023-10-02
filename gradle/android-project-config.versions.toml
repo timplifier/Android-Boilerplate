@@ -1,0 +1,12 @@
+[versions]
+namespaces-common = "com.timplifier.boilerplate"
+sdk-min = "24"
+sdk-compile = "34"
+sdk-target = "34"
+versioning-major = "1"
+versioning-feature = "0"
+versioning-patch = "0"
+build-type-release = "release"
+build-type-debug = "debug"
+build-type-debug-applicationIdSuffix = ".debug"
+build-type-benchmark = "benchmark"
