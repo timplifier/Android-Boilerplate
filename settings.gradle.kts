@@ -28,4 +28,14 @@ rootProject.name = "Boilerplate"
 includeBuild("build-logic")
 include(":app")
 include(":konsist")
-include(":core:domain", ":core:data", ":core:presentation")
+include(":core:data", ":core:domain", ":core:presentation")
+include(
+    ":feature:authentication:data",
+    ":feature:authentication:domain",
+    ":feature:authentication:presentation"
+)
+include(
+    ":feature:main:data",
+    ":feature:main:domain",
+    ":feature:main:presentation"
+)
