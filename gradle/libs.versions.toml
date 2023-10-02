@@ -9,7 +9,8 @@ google-accompanist-flowlayout = "0.31.6-rc"
 google-android-play-app-update = "2.1.0"
 google-android-play-app-review = "2.0.1"
 google-dagger = "2.48"
-google-protobuf = "0.8.19"
+google-protobuf = "0.9.4"
+google-protobuf-javalite = "3.24.3"
 # Triplet
 triplet-playpublisher = "3.8.4"
 # Kotlin
@@ -48,15 +49,12 @@ guardsquare-appsweep = "latest.release"
 ktlint = "11.3.2"
 # Testing
 junit = "4.13.2"
-androidx-test-ext-junit = "1.1.5"
-espresso-core = "3.5.1"
-appcompat = "1.6.1"
-material = "1.9.0"
 [libraries]
 # AGP
 agp-tools-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 
 # Google
+google-protobuf-javalite = { group = "com.google.protobuf", name = "protobuf-javalite", version.ref = "google-protobuf-javalite" }
 google-devtools-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "google-devtools-ksp" }
 google-android-play-app-update = { group = "com.google.android.play", name = "app-update", version.ref = "google-android-play-app-update" }
 google-android-play-app-update-ktx = { group = "com.google.android.play", name = "app-update-ktx", version.ref = "google-android-play-app-update" }
