@@ -1,0 +1,3 @@
+[versions]
+kotlin-options-jvm = "19"
+tasks-clean = "clean"
