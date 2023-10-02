@@ -165,10 +165,10 @@ kotlinx-android = ["kotlinx-collections-immutable", "kotlinx-datetime", "kotlinx
 ktor-client = ["ktor-client-core", "ktor-serialization-kotlinx-json", "ktor-client-content-negotiation", "ktor-client-logging", "ktor-client-engine-okhttp", "ktor-client-auth", "ktor-client-resources", "ktor-client-websockets"]
 [plugins]
 # Wallet Leaks
-walletleaks-android-plain = { id = "walletleaks.android.plain" }
-walletleaks-layer-data = { id = "walletleaks.layer.data" }
-walletleaks-layer-domain = { id = "walletleaks.layer.domain" }
-walletleaks-layer-presentation = { id = "walletleaks.layer.presentation" }
+boilerplate-android-plain = { id = "walletleaks.android.plain" }
+boilerplate-layer-data = { id = "walletleaks.layer.data" }
+boilerplate-layer-domain = { id = "walletleaks.layer.domain" }
+boilerplate-layer-presentation = { id = "walletleaks.layer.presentation" }
 
 # AGP
 agp-application = { id = "com.android.application", version.ref = "agp" }

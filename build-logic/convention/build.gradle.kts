@@ -30,7 +30,7 @@ dependencies {
 gradlePlugin {
     plugins {
 
-        with(libs.plugins.walletleaks) {
+        with(libs.plugins.boilerplate) {
             register(android.plain.get().pluginId) {
                 id = android.plain.get().pluginId
                 implementationClass =
