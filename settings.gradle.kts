@@ -25,5 +25,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Boilerplate"
+includeBuild("build-logic")
 include(":app")
  
