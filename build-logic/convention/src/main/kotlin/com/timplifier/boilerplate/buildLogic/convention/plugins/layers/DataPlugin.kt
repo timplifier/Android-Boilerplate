@@ -21,8 +21,11 @@ internal class DataPlugin : AndroidLibraryPlugin(projectConfiguration = {
         implementation(libs.bundles.kotlinx.core)
         implementation(libs.bundles.ktor.client)
         implementation(libs.androidx.paging)
+        implementation(libs.androidx.room.runtime)
+        implementation(libs.androidx.room.ktx)
         implementation(libs.google.dagger)
         ksp(libs.google.dagger.compiler)
+        ksp(libs.androidx.room.compiler)
     }
 }, releaseLibraryBuildType = {
     buildConfigField("String", "DEV_BASE_URL", "\"http://134.122.75.14:8999/\"")
