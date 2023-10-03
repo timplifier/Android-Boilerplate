@@ -1,11 +1,11 @@
 package com.timplifier.boilerplate.buildLogic.convention.plugins.layers
 
-import org.gradle.kotlin.dsl.dependencies
 import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPluginId
 import com.timplifier.boilerplate.buildLogic.convention.extensions.implementation
 import com.timplifier.boilerplate.buildLogic.convention.extensions.ksp
 import com.timplifier.boilerplate.buildLogic.convention.extensions.libs
 import com.timplifier.boilerplate.buildLogic.convention.plugins.base.AndroidLibraryPlugin
+import org.gradle.kotlin.dsl.dependencies
 
 internal class PresentationPlugin : AndroidLibraryPlugin({
 

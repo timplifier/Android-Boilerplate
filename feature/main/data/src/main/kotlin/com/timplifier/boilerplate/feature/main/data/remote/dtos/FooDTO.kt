@@ -3,7 +3,6 @@ package com.timplifier.boilerplate.feature.main.data.remote.dtos
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.timplifier.boilerplate.core.data.foundation.DTOMapper
-import com.timplifier.boilerplate.feature.main.data.remote.dtos.DummyDTO
 import com.timplifier.boilerplate.feature.main.domain.models.FooModel
 import io.ktor.resources.Resource
 import kotlinx.serialization.SerialName
