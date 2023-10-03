@@ -17,7 +17,7 @@ internal class PresentationPlugin : AndroidLibraryPlugin({
     dependencies {
         if (path.split(":").first { it.isNotBlank() } != "core")
             implementation(project(":core:presentation"))
-        implementation(project(path.replace(":presentation", ":data")))
+        implementation(project(path.replace(":presentation", ":domain")))
         implementation(libs.bundles.androidx.compose)
         implementation(libs.bundles.kotlinx.android)
         implementation(libs.google.dagger)
