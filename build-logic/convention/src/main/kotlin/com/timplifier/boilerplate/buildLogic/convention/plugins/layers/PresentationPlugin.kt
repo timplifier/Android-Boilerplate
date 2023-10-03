@@ -1,11 +1,11 @@
 package com.timplifier.boilerplate.buildLogic.convention.plugins.layers
 
-import org.gradle.kotlin.dsl.dependencies
 import com.timplifier.boilerplate.buildLogic.convention.extensions.extractPluginId
 import com.timplifier.boilerplate.buildLogic.convention.extensions.implementation
 import com.timplifier.boilerplate.buildLogic.convention.extensions.ksp
 import com.timplifier.boilerplate.buildLogic.convention.extensions.libs
 import com.timplifier.boilerplate.buildLogic.convention.plugins.base.AndroidLibraryPlugin
+import org.gradle.kotlin.dsl.dependencies
 
 internal class PresentationPlugin : AndroidLibraryPlugin({
 
@@ -17,7 +17,7 @@ internal class PresentationPlugin : AndroidLibraryPlugin({
     dependencies {
         if (path.split(":").first { it.isNotBlank() } != "core")
             implementation(project(":core:presentation"))
-        implementation(project(path.replace(":presentation", ":data")))
+        implementation(project(path.replace(":presentation", ":domain")))
         implementation(libs.bundles.androidx.compose)
         implementation(libs.bundles.kotlinx.android)
         implementation(libs.google.dagger)

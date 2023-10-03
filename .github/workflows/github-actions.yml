@@ -1,5 +1,5 @@
 name: New Pull Request uploaded
-on: [pull_request_target]
+on: [ pull_request_target ]
 jobs:
   upload-app-to-appsweep:
     runs-on: ubuntu-latest
