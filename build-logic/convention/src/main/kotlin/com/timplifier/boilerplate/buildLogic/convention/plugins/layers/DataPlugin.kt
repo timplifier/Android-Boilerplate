@@ -28,8 +28,8 @@ internal class DataPlugin : AndroidLibraryPlugin(projectConfiguration = {
         ksp(libs.androidx.room.compiler)
     }
 }, releaseLibraryBuildType = {
-    buildConfigField("String", "DEV_BASE_URL", "\"http://134.122.75.14:8999/\"")
-    buildConfigField("String", "DEV_WEBSOCKET_URL", "\"ws://134.122.75.14:8999/ws/\"")
+    buildConfigField("String", "DEV_BASE_URL", "\"http://android-boilerplate.com/\"")
+    buildConfigField("String", "DEV_WEBSOCKET_URL", "\"ws://android-boilerplate/ws/\"")
 }, buildFeaturesConfiguration = {
     buildConfig = true
 }
